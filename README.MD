@@ -13,7 +13,7 @@ _Update the below values to match your requirements_
 ```sh
 migration_dir="./_trash"
 git_url="https://github.com/miztiik/lex-faq-bot.git"
-aws_region="eu-central-1"
+aws_region="ap-south-1"
 codecommit_repo_name="lex-faq-bot"
 ```
 
