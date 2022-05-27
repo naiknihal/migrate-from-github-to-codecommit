@@ -22,7 +22,7 @@ codecommit_repo_name="lex-faq-bot"
 # Create CodeCommit Repo
 aws codecommit create-repository \
   --repository-name ${codecommit_repo_name} \
-  --repository-description "My shiny new chat bot"
+  --repository-description "Gitlab Source - Flentas -> "
 
 # Clone Git to local (only for migration purposes; not for local development)
 git clone --mirror ${git_url} ${migration_dir}
